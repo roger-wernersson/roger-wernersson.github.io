@@ -13,5 +13,18 @@ Keep the code clean and aligned with the language of the relevant context.
 To be able to refactor the code, you will need tests.
 The best way to put the code under tests is if you write the test before you implement the functionality.
 
+Test driven development is based on a tight feedback-loop in four steps.
+You should strive to never be more than a few minutes from green tests.
+
+The first step it to write a failing test case for the functionality you will implement next.
+You can consider code that does not compile to be a failing test case.
+
+Once the code compiles, the second step is to make the error message tell the reader what is wrong in a clear and obvious way.
+You will need this for when you break this test in the future.
+
+The third step is to write the simplest implementation that will make the test pass.
+If you are not happy with the implementation, add more tests to force the implementation to become more generic.
+See Transform Priority Premise for how the implementation can evovle from specific to generic.
+
 <h2>Quality</h2>
 <h2>Value</h2>
